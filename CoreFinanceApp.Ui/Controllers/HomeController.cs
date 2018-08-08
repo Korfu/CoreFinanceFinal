@@ -28,21 +28,8 @@ namespace CoreFinanceApp.Ui.Controllers
 
             new ExcelOperations().GetExcel(path);
 
-           
-            //if ()
-            //{
-                ViewBag.ExcelUploadMessage = "Upload Successful!";
-            //} else
-            //{
-            //    ViewBag.ExcelUploadMessage = "Some of the pesels look incorrect! They have been stored in the database, though";
-            //}
-           
-
+            ViewBag.ExcelUploadMessage = "Upload Successful!";
             return View("Index");
         }
-
-        //dodac tu metode ;P
-
-
     }
 }
